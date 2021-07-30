@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Abstract
+During teleoperation of a mobile robot, providing good operator situation awareness is a major concern as a single mistake can lead to mission failure. Camera streams are widely used for teleoperation but offer limited field-of-view. 
+In this paper, we present a flexible framework for virtual projections to increase situation awareness based on a novel method to fuse multiple cameras mounted anywhere on the robot. Moreover, we propose a complementary approach to improve scene understanding by fusing camera images and geometric 3D Lidar data to obtain a colorized point cloud. 
+The implementation on a compact omnidirectional camera reduces system complexity considerably and solves multiple use-cases on a much smaller footprint compared to traditional approaches such as actuated pan-tilt units. 
+Finally, we demonstrate the generality of the approach by application to the multi-camera system of the Boston Dynamics Spot.
 
-You can use the [editor on GitHub](https://github.com/tu-darmstadt-ros-pkg/omnidirectional_vision/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Video
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Source Code
+The source code is hosted as open source on Github:
+* [tu-darmstadt-ros-pkg/image_projection](https://github.com/tu-darmstadt-ros-pkg/image_projection)
+* [tu-darmstadt-ros-pkg/color_cloud_from_image](https://github.com/tu-darmstadt-ros-pkg/color_cloud_from_image)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Citation
+Please cite our paper if you use this software as part of your scientific publication:
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tu-darmstadt-ros-pkg/omnidirectional_vision/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[BIBTEX HERE]
