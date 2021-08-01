@@ -1,6 +1,6 @@
 
 # A Flexible Framework for Virtual Omnidirectional Vision to Improve Operator Situation Awareness
-Authors: Martin Oehler and Oskar von Stryk
+Authors: Martin Oehler and Oskar von Stryk <br/>
 Affiliation: Technical University of Darmstadt
 
 ## Abstract
