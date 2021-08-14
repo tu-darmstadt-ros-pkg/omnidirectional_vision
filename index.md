@@ -20,5 +20,10 @@ License: [MIT](https://choosealicense.com/licenses/mit/)
 Please cite our paper if you use this software as part of your scientific publication:
 
 ```
-[BIBTEX HERE]
+@INPROCEEDINGS{oehler2021flexible,
+  author={Oehler, Martin and von Stryk, Oskar},
+  booktitle={2021 European Conference on Mobile Robots (ECMR)}, 
+  title={A Flexible Framework for Virtual Omnidirectional Vision to Improve Operator Situation Awareness}, 
+  year={2021}
+}
 ```
