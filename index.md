@@ -9,6 +9,10 @@ In this paper, we present a flexible framework for virtual projections to increa
 The implementation on a compact omnidirectional camera reduces system complexity considerably and solves multiple use-cases on a much smaller footprint compared to traditional approaches such as actuated pan-tilt units. 
 Finally, we demonstrate the generality of the approach by application to the multi-camera system of the Boston Dynamics Spot.
 
+## Video
+
+{% include youtube.html id="7pocpdsMxOM" %}
+
 ## Source Code
 The source code is hosted as open source on Github:
 * [tu-darmstadt-ros-pkg/image_projection](https://github.com/tu-darmstadt-ros-pkg/image_projection)
